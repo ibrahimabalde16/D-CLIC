@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.options label {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result {
+  display: flex;
+  margin-top: 20px;
+}
+
+.result input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+}
+
+#copy {
+  background: #2ecc71;
+  border-radius: 0 8px 8px 0;
+}
